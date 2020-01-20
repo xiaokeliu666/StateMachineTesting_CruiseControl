@@ -1,0 +1,8 @@
+SpeedControl(simulate.CarSimulator)
+void_recordSpeed()
+void_clearSpeed()
+void_enableControl()
+void_disableControl()
+void_run()
+int_getState()
+int_getCruiseSpeed()

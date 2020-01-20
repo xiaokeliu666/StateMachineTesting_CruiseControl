@@ -1,0 +1,246 @@
+AOIU_2:29:void_brake():controlState => -controlState
+AOIU_3:29:void_brake():CRUISING => -CRUISING
+AOIU_4:31:void_brake():STANDBY => -STANDBY
+AOIU_5:37:void_accelerator():controlState => -controlState
+AOIU_6:37:void_accelerator():CRUISING => -CRUISING
+AOIU_7:39:void_accelerator():STANDBY => -STANDBY
+AOIU_8:45:void_engineOff():controlState => -controlState
+AOIU_9:45:void_engineOff():INACTIVE => -INACTIVE
+AOIU_10:47:void_engineOff():INACTIVE => -INACTIVE
+AOIU_11:53:void_engineOn():controlState => -controlState
+AOIU_12:53:void_engineOn():INACTIVE => -INACTIVE
+AOIU_13:55:void_engineOn():ACTIVE => -ACTIVE
+AOIU_14:61:void_on():controlState => -controlState
+AOIU_15:61:void_on():INACTIVE => -INACTIVE
+AOIU_16:64:void_on():CRUISING => -CRUISING
+AOIU_17:70:void_off():controlState => -controlState
+AOIU_18:70:void_off():CRUISING => -CRUISING
+AOIU_19:72:void_off():STANDBY => -STANDBY
+AOIU_20:78:void_resume():controlState => -controlState
+AOIU_21:78:void_resume():STANDBY => -STANDBY
+AOIU_22:80:void_resume():CRUISING => -CRUISING
+AOIU_23:86:int_getControlState():controlState => -controlState
+AOIS_3:29:void_brake():controlState => ++controlState
+AOIS_4:29:void_brake():controlState => --controlState
+AOIS_5:29:void_brake():controlState => controlState++
+AOIS_6:29:void_brake():controlState => controlState--
+AOIS_7:29:void_brake():CRUISING => ++CRUISING
+AOIS_8:29:void_brake():CRUISING => --CRUISING
+AOIS_9:29:void_brake():CRUISING => CRUISING++
+AOIS_10:29:void_brake():CRUISING => CRUISING--
+AOIS_11:31:void_brake():STANDBY => ++STANDBY
+AOIS_12:31:void_brake():STANDBY => --STANDBY
+AOIS_13:31:void_brake():STANDBY => STANDBY++
+AOIS_14:31:void_brake():STANDBY => STANDBY--
+AOIS_15:37:void_accelerator():controlState => ++controlState
+AOIS_16:37:void_accelerator():controlState => --controlState
+AOIS_17:37:void_accelerator():controlState => controlState++
+AOIS_18:37:void_accelerator():controlState => controlState--
+AOIS_19:37:void_accelerator():CRUISING => ++CRUISING
+AOIS_20:37:void_accelerator():CRUISING => --CRUISING
+AOIS_21:37:void_accelerator():CRUISING => CRUISING++
+AOIS_22:37:void_accelerator():CRUISING => CRUISING--
+AOIS_23:39:void_accelerator():STANDBY => ++STANDBY
+AOIS_24:39:void_accelerator():STANDBY => --STANDBY
+AOIS_25:39:void_accelerator():STANDBY => STANDBY++
+AOIS_26:39:void_accelerator():STANDBY => STANDBY--
+AOIS_27:45:void_engineOff():controlState => ++controlState
+AOIS_28:45:void_engineOff():controlState => --controlState
+AOIS_29:45:void_engineOff():controlState => controlState++
+AOIS_30:45:void_engineOff():controlState => controlState--
+AOIS_31:45:void_engineOff():INACTIVE => ++INACTIVE
+AOIS_32:45:void_engineOff():INACTIVE => --INACTIVE
+AOIS_33:45:void_engineOff():INACTIVE => INACTIVE++
+AOIS_34:45:void_engineOff():INACTIVE => INACTIVE--
+AOIS_35:47:void_engineOff():INACTIVE => ++INACTIVE
+AOIS_36:47:void_engineOff():INACTIVE => --INACTIVE
+AOIS_37:47:void_engineOff():INACTIVE => INACTIVE++
+AOIS_38:47:void_engineOff():INACTIVE => INACTIVE--
+AOIS_39:53:void_engineOn():controlState => ++controlState
+AOIS_40:53:void_engineOn():controlState => --controlState
+AOIS_41:53:void_engineOn():controlState => controlState++
+AOIS_42:53:void_engineOn():controlState => controlState--
+AOIS_43:53:void_engineOn():INACTIVE => ++INACTIVE
+AOIS_44:53:void_engineOn():INACTIVE => --INACTIVE
+AOIS_45:53:void_engineOn():INACTIVE => INACTIVE++
+AOIS_46:53:void_engineOn():INACTIVE => INACTIVE--
+AOIS_47:55:void_engineOn():ACTIVE => ++ACTIVE
+AOIS_48:55:void_engineOn():ACTIVE => --ACTIVE
+AOIS_49:55:void_engineOn():ACTIVE => ACTIVE++
+AOIS_50:55:void_engineOn():ACTIVE => ACTIVE--
+AOIS_51:61:void_on():controlState => ++controlState
+AOIS_52:61:void_on():controlState => --controlState
+AOIS_53:61:void_on():controlState => controlState++
+AOIS_54:61:void_on():controlState => controlState--
+AOIS_55:61:void_on():INACTIVE => ++INACTIVE
+AOIS_56:61:void_on():INACTIVE => --INACTIVE
+AOIS_57:61:void_on():INACTIVE => INACTIVE++
+AOIS_58:61:void_on():INACTIVE => INACTIVE--
+AOIS_59:64:void_on():CRUISING => ++CRUISING
+AOIS_60:64:void_on():CRUISING => --CRUISING
+AOIS_61:64:void_on():CRUISING => CRUISING++
+AOIS_62:64:void_on():CRUISING => CRUISING--
+AOIS_63:70:void_off():controlState => ++controlState
+AOIS_64:70:void_off():controlState => --controlState
+AOIS_65:70:void_off():controlState => controlState++
+AOIS_66:70:void_off():controlState => controlState--
+AOIS_67:70:void_off():CRUISING => ++CRUISING
+AOIS_68:70:void_off():CRUISING => --CRUISING
+AOIS_69:70:void_off():CRUISING => CRUISING++
+AOIS_70:70:void_off():CRUISING => CRUISING--
+AOIS_71:72:void_off():STANDBY => ++STANDBY
+AOIS_72:72:void_off():STANDBY => --STANDBY
+AOIS_73:72:void_off():STANDBY => STANDBY++
+AOIS_74:72:void_off():STANDBY => STANDBY--
+AOIS_75:78:void_resume():controlState => ++controlState
+AOIS_76:78:void_resume():controlState => --controlState
+AOIS_77:78:void_resume():controlState => controlState++
+AOIS_78:78:void_resume():controlState => controlState--
+AOIS_79:78:void_resume():STANDBY => ++STANDBY
+AOIS_80:78:void_resume():STANDBY => --STANDBY
+AOIS_81:78:void_resume():STANDBY => STANDBY++
+AOIS_82:78:void_resume():STANDBY => STANDBY--
+AOIS_83:80:void_resume():CRUISING => ++CRUISING
+AOIS_84:80:void_resume():CRUISING => --CRUISING
+AOIS_85:80:void_resume():CRUISING => CRUISING++
+AOIS_86:80:void_resume():CRUISING => CRUISING--
+AOIS_87:86:int_getControlState():controlState => controlState++
+AOIS_88:86:int_getControlState():controlState => controlState--
+ROR_1:29:void_brake(): controlState == CRUISING  =>   controlState > CRUISING
+ROR_2:29:void_brake(): controlState == CRUISING  =>   controlState >= CRUISING
+ROR_3:29:void_brake(): controlState == CRUISING  =>   controlState < CRUISING
+ROR_4:29:void_brake(): controlState == CRUISING  =>   controlState <= CRUISING
+ROR_5:29:void_brake(): controlState == CRUISING  =>   controlState != CRUISING
+ROR_6:29:void_brake(): controlState == CRUISING  =>   true
+ROR_7:29:void_brake(): controlState == CRUISING  =>   false
+ROR_8:37:void_accelerator(): controlState == CRUISING  =>   controlState > CRUISING
+ROR_9:37:void_accelerator(): controlState == CRUISING  =>   controlState >= CRUISING
+ROR_10:37:void_accelerator(): controlState == CRUISING  =>   controlState < CRUISING
+ROR_11:37:void_accelerator(): controlState == CRUISING  =>   controlState <= CRUISING
+ROR_12:37:void_accelerator(): controlState == CRUISING  =>   controlState != CRUISING
+ROR_13:37:void_accelerator(): controlState == CRUISING  =>   true
+ROR_14:37:void_accelerator(): controlState == CRUISING  =>   false
+ROR_15:45:void_engineOff(): controlState != INACTIVE  =>   controlState > INACTIVE
+ROR_16:45:void_engineOff(): controlState != INACTIVE  =>   controlState >= INACTIVE
+ROR_17:45:void_engineOff(): controlState != INACTIVE  =>   controlState < INACTIVE
+ROR_18:45:void_engineOff(): controlState != INACTIVE  =>   controlState <= INACTIVE
+ROR_19:45:void_engineOff(): controlState != INACTIVE  =>   controlState == INACTIVE
+ROR_20:45:void_engineOff(): controlState != INACTIVE  =>   true
+ROR_21:45:void_engineOff(): controlState != INACTIVE  =>   false
+ROR_22:53:void_engineOn(): controlState == INACTIVE  =>   controlState > INACTIVE
+ROR_23:53:void_engineOn(): controlState == INACTIVE  =>   controlState >= INACTIVE
+ROR_24:53:void_engineOn(): controlState == INACTIVE  =>   controlState < INACTIVE
+ROR_25:53:void_engineOn(): controlState == INACTIVE  =>   controlState <= INACTIVE
+ROR_26:53:void_engineOn(): controlState == INACTIVE  =>   controlState != INACTIVE
+ROR_27:53:void_engineOn(): controlState == INACTIVE  =>   true
+ROR_28:53:void_engineOn(): controlState == INACTIVE  =>   false
+ROR_29:61:void_on(): controlState != INACTIVE  =>   controlState > INACTIVE
+ROR_30:61:void_on(): controlState != INACTIVE  =>   controlState >= INACTIVE
+ROR_31:61:void_on(): controlState != INACTIVE  =>   controlState < INACTIVE
+ROR_32:61:void_on(): controlState != INACTIVE  =>   controlState <= INACTIVE
+ROR_33:61:void_on(): controlState != INACTIVE  =>   controlState == INACTIVE
+ROR_34:61:void_on(): controlState != INACTIVE  =>   true
+ROR_35:61:void_on(): controlState != INACTIVE  =>   false
+ROR_36:70:void_off(): controlState == CRUISING  =>   controlState > CRUISING
+ROR_37:70:void_off(): controlState == CRUISING  =>   controlState >= CRUISING
+ROR_38:70:void_off(): controlState == CRUISING  =>   controlState < CRUISING
+ROR_39:70:void_off(): controlState == CRUISING  =>   controlState <= CRUISING
+ROR_40:70:void_off(): controlState == CRUISING  =>   controlState != CRUISING
+ROR_41:70:void_off(): controlState == CRUISING  =>   true
+ROR_42:70:void_off(): controlState == CRUISING  =>   false
+ROR_43:78:void_resume(): controlState == STANDBY  =>   controlState > STANDBY
+ROR_44:78:void_resume(): controlState == STANDBY  =>   controlState >= STANDBY
+ROR_45:78:void_resume(): controlState == STANDBY  =>   controlState < STANDBY
+ROR_46:78:void_resume(): controlState == STANDBY  =>   controlState <= STANDBY
+ROR_47:78:void_resume(): controlState == STANDBY  =>   controlState != STANDBY
+ROR_48:78:void_resume(): controlState == STANDBY  =>   true
+ROR_49:78:void_resume(): controlState == STANDBY  =>   false
+COI_1:29:void_brake(): controlState == CRUISING  =>  !(controlState == CRUISING)
+COI_2:37:void_accelerator(): controlState == CRUISING  =>  !(controlState == CRUISING)
+COI_3:45:void_engineOff(): controlState != INACTIVE  =>  !(controlState != INACTIVE)
+COI_4:53:void_engineOn(): controlState == INACTIVE  =>  !(controlState == INACTIVE)
+COI_5:61:void_on(): controlState != INACTIVE  =>  !(controlState != INACTIVE)
+COI_6:70:void_off(): controlState == CRUISING  =>  !(controlState == CRUISING)
+COI_7:78:void_resume(): controlState == STANDBY  =>  !(controlState == STANDBY)
+LOI_2:29:void_brake():controlState => ~controlState
+LOI_3:29:void_brake():CRUISING => ~CRUISING
+LOI_4:31:void_brake():STANDBY => ~STANDBY
+LOI_5:37:void_accelerator():controlState => ~controlState
+LOI_6:37:void_accelerator():CRUISING => ~CRUISING
+LOI_7:39:void_accelerator():STANDBY => ~STANDBY
+LOI_8:45:void_engineOff():controlState => ~controlState
+LOI_9:45:void_engineOff():INACTIVE => ~INACTIVE
+LOI_10:47:void_engineOff():INACTIVE => ~INACTIVE
+LOI_11:53:void_engineOn():controlState => ~controlState
+LOI_12:53:void_engineOn():INACTIVE => ~INACTIVE
+LOI_13:55:void_engineOn():ACTIVE => ~ACTIVE
+LOI_14:61:void_on():controlState => ~controlState
+LOI_15:61:void_on():INACTIVE => ~INACTIVE
+LOI_16:64:void_on():CRUISING => ~CRUISING
+LOI_17:70:void_off():controlState => ~controlState
+LOI_18:70:void_off():CRUISING => ~CRUISING
+LOI_19:72:void_off():STANDBY => ~STANDBY
+LOI_20:78:void_resume():controlState => ~controlState
+LOI_21:78:void_resume():STANDBY => ~STANDBY
+LOI_22:80:void_resume():CRUISING => ~CRUISING
+LOI_23:86:int_getControlState():controlState => ~controlState
+SDL_1:24:Controller(simulate.CarSimulator): sc = new simulate.SpeedControl( cs );  =>  
+SDL_2:29:void_brake(): if (controlState == CRUISING) {     sc.disableControl();     controlState = STANDBY; }  =>  
+SDL_3:31:void_brake(): sc.disableControl(); controlState = STANDBY;  =>   controlState = STANDBY;
+SDL_4:31:void_brake(): sc.disableControl(); controlState = STANDBY;  =>   sc.disableControl();
+SDL_5:33:void_brake(): if (controlState == CRUISING) {     sc.disableControl();     controlState = STANDBY; }  =>   if (true) {     sc.disableControl();     controlState = STANDBY; }
+SDL_6:37:void_accelerator(): if (controlState == CRUISING) {     sc.disableControl();     controlState = STANDBY; }  =>  
+SDL_7:39:void_accelerator(): sc.disableControl(); controlState = STANDBY;  =>   controlState = STANDBY;
+SDL_8:39:void_accelerator(): sc.disableControl(); controlState = STANDBY;  =>   sc.disableControl();
+SDL_9:41:void_accelerator(): if (controlState == CRUISING) {     sc.disableControl();     controlState = STANDBY; }  =>   if (true) {     sc.disableControl();     controlState = STANDBY; }
+SDL_10:45:void_engineOff(): if (controlState != INACTIVE) {     sc.disableControl();     controlState = INACTIVE; }  =>  
+SDL_11:47:void_engineOff(): sc.disableControl(); controlState = INACTIVE;  =>   controlState = INACTIVE;
+SDL_12:47:void_engineOff(): sc.disableControl(); controlState = INACTIVE;  =>   sc.disableControl();
+SDL_13:49:void_engineOff(): if (controlState != INACTIVE) {     sc.disableControl();     controlState = INACTIVE; }  =>   if (true) {     sc.disableControl();     controlState = INACTIVE; }
+SDL_14:53:void_engineOn(): if (controlState == INACTIVE) {     sc.clearSpeed();     controlState = ACTIVE; }  =>  
+SDL_15:55:void_engineOn(): sc.clearSpeed(); controlState = ACTIVE;  =>   controlState = ACTIVE;
+SDL_16:55:void_engineOn(): sc.clearSpeed(); controlState = ACTIVE;  =>   sc.clearSpeed();
+SDL_17:57:void_engineOn(): if (controlState == INACTIVE) {     sc.clearSpeed();     controlState = ACTIVE; }  =>   if (true) {     sc.clearSpeed();     controlState = ACTIVE; }
+SDL_18:61:void_on(): if (controlState != INACTIVE) {     sc.recordSpeed();     sc.enableControl();     controlState = CRUISING; }  =>  
+SDL_19:64:void_on(): sc.recordSpeed(); sc.enableControl(); controlState = CRUISING;  =>   sc.enableControl(); controlState = CRUISING;
+SDL_20:64:void_on(): sc.recordSpeed(); sc.enableControl(); controlState = CRUISING;  =>   sc.recordSpeed(); controlState = CRUISING;
+SDL_21:64:void_on(): sc.recordSpeed(); sc.enableControl(); controlState = CRUISING;  =>   sc.recordSpeed(); sc.enableControl();
+SDL_22:66:void_on(): if (controlState != INACTIVE) {     sc.recordSpeed();     sc.enableControl();     controlState = CRUISING; }  =>   if (true) {     sc.recordSpeed();     sc.enableControl();     controlState = CRUISING; }
+SDL_23:70:void_off(): if (controlState == CRUISING) {     sc.disableControl();     controlState = STANDBY; }  =>  
+SDL_24:72:void_off(): sc.disableControl(); controlState = STANDBY;  =>   controlState = STANDBY;
+SDL_25:72:void_off(): sc.disableControl(); controlState = STANDBY;  =>   sc.disableControl();
+SDL_26:74:void_off(): if (controlState == CRUISING) {     sc.disableControl();     controlState = STANDBY; }  =>   if (true) {     sc.disableControl();     controlState = STANDBY; }
+SDL_27:78:void_resume(): if (controlState == STANDBY) {     sc.enableControl();     controlState = CRUISING; }  =>  
+SDL_28:80:void_resume(): sc.enableControl(); controlState = CRUISING;  =>   controlState = CRUISING;
+SDL_29:80:void_resume(): sc.enableControl(); controlState = CRUISING;  =>   sc.enableControl();
+SDL_30:82:void_resume(): if (controlState == STANDBY) {     sc.enableControl();     controlState = CRUISING; }  =>   if (true) {     sc.enableControl();     controlState = CRUISING; }
+SDL_31:87:int_getControlState(): return controlState;  =>   return 0;
+SDL_32:92:int_getState(): return sc.getState();  =>   return 0;
+VDL_1:29:void_brake():controlState == CRUISING => CRUISING
+VDL_2:29:void_brake():controlState == CRUISING => controlState
+VDL_3:37:void_accelerator():controlState == CRUISING => CRUISING
+VDL_4:37:void_accelerator():controlState == CRUISING => controlState
+VDL_5:45:void_engineOff():controlState != INACTIVE => INACTIVE
+VDL_6:45:void_engineOff():controlState != INACTIVE => controlState
+VDL_7:53:void_engineOn():controlState == INACTIVE => INACTIVE
+VDL_8:53:void_engineOn():controlState == INACTIVE => controlState
+VDL_9:61:void_on():controlState != INACTIVE => INACTIVE
+VDL_10:61:void_on():controlState != INACTIVE => controlState
+VDL_11:70:void_off():controlState == CRUISING => CRUISING
+VDL_12:70:void_off():controlState == CRUISING => controlState
+VDL_13:78:void_resume():controlState == STANDBY => STANDBY
+VDL_14:78:void_resume():controlState == STANDBY => controlState
+ODL_1:29:void_brake():controlState == CRUISING => controlState
+ODL_2:29:void_brake():controlState == CRUISING => CRUISING
+ODL_3:37:void_accelerator():controlState == CRUISING => controlState
+ODL_4:37:void_accelerator():controlState == CRUISING => CRUISING
+ODL_5:45:void_engineOff():controlState != INACTIVE => controlState
+ODL_6:45:void_engineOff():controlState != INACTIVE => INACTIVE
+ODL_7:53:void_engineOn():controlState == INACTIVE => controlState
+ODL_8:53:void_engineOn():controlState == INACTIVE => INACTIVE
+ODL_9:61:void_on():controlState != INACTIVE => controlState
+ODL_10:61:void_on():controlState != INACTIVE => INACTIVE
+ODL_11:70:void_off():controlState == CRUISING => controlState
+ODL_12:70:void_off():controlState == CRUISING => CRUISING
+ODL_13:78:void_resume():controlState == STANDBY => controlState
+ODL_14:78:void_resume():controlState == STANDBY => STANDBY

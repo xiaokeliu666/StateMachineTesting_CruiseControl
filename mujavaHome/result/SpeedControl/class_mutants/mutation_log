@@ -1,0 +1,14 @@
+JSD_1:13:static is deleted
+JSD_2:15:static is deleted
+JSI_1:17:static is inserted
+JSI_2:19:static is inserted
+JSI_3:21:static is inserted
+JSI_4:23:static is inserted
+JTD_1:27:this.cs => cs
+JTI_1:27:cs  -->  this.cs
+JID_1:17:private int stateDISABLED => private int state;
+JID_2:19:private int setSpeed0 => private int setSpeed;
+EAM_1:32:cs.getSpeed() => cs.getBrakepedal()
+EAM_2:32:cs.getSpeed() => cs.getDistance()
+EAM_3:65:cs.getSpeed() => cs.getBrakepedal()
+EAM_4:65:cs.getSpeed() => cs.getDistance()

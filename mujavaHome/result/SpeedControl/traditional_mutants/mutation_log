@@ -1,0 +1,214 @@
+AORB_1:65:void_run():setSpeed - cs.getSpeed() => setSpeed * cs.getSpeed()
+AORB_2:65:void_run():setSpeed - cs.getSpeed() => setSpeed / cs.getSpeed()
+AORB_3:65:void_run():setSpeed - cs.getSpeed() => setSpeed % cs.getSpeed()
+AORB_4:65:void_run():setSpeed - cs.getSpeed() => setSpeed + cs.getSpeed()
+AORB_5:65:void_run():(float) (setSpeed - cs.getSpeed()) / 6.0 => (float) (setSpeed - cs.getSpeed()) * 6.0
+AORB_6:65:void_run():(float) (setSpeed - cs.getSpeed()) / 6.0 => (float) (setSpeed - cs.getSpeed()) % 6.0
+AORB_7:65:void_run():(float) (setSpeed - cs.getSpeed()) / 6.0 => (float) (setSpeed - cs.getSpeed()) + 6.0
+AORB_8:65:void_run():(float) (setSpeed - cs.getSpeed()) / 6.0 => (float) (setSpeed - cs.getSpeed()) - 6.0
+AORB_9:66:void_run():(double) setSpeed / 12.0 => (double) setSpeed * 12.0
+AORB_10:66:void_run():(double) setSpeed / 12.0 => (double) setSpeed % 12.0
+AORB_11:66:void_run():(double) setSpeed / 12.0 => (double) setSpeed + 12.0
+AORB_12:66:void_run():(double) setSpeed / 12.0 => (double) setSpeed - 12.0
+AORB_13:67:void_run():steady + error => steady * error
+AORB_14:67:void_run():steady + error => steady / error
+AORB_15:67:void_run():steady + error => steady % error
+AORB_16:67:void_run():steady + error => steady - error
+AOIU_2:37:void_clearSpeed():state => -state
+AOIU_3:37:void_clearSpeed():DISABLED => -DISABLED
+AOIU_4:44:void_enableControl():state => -state
+AOIU_5:44:void_enableControl():DISABLED => -DISABLED
+AOIU_6:47:void_enableControl():ENABLED => -ENABLED
+AOIU_7:53:void_disableControl():state => -state
+AOIU_8:53:void_disableControl():ENABLED => -ENABLED
+AOIU_9:54:void_disableControl():DISABLED => -DISABLED
+AOIU_10:61:void_run():state => -state
+AOIU_11:61:void_run():ENABLED => -ENABLED
+AOIU_12:62:void_run():state => -state
+AOIU_13:62:void_run():ENABLED => -ENABLED
+AOIU_14:65:void_run():setSpeed => -setSpeed
+AOIU_15:66:void_run():setSpeed => -setSpeed
+AOIU_16:67:void_run():steady => -steady
+AOIU_17:79:int_getState():state => -state
+AOIU_18:84:int_getCruiseSpeed():setSpeed => -setSpeed
+AOIS_3:37:void_clearSpeed():state => ++state
+AOIS_4:37:void_clearSpeed():state => --state
+AOIS_5:37:void_clearSpeed():state => state++
+AOIS_6:37:void_clearSpeed():state => state--
+AOIS_7:37:void_clearSpeed():DISABLED => ++DISABLED
+AOIS_8:37:void_clearSpeed():DISABLED => --DISABLED
+AOIS_9:37:void_clearSpeed():DISABLED => DISABLED++
+AOIS_10:37:void_clearSpeed():DISABLED => DISABLED--
+AOIS_11:44:void_enableControl():state => ++state
+AOIS_12:44:void_enableControl():state => --state
+AOIS_13:44:void_enableControl():state => state++
+AOIS_14:44:void_enableControl():state => state--
+AOIS_15:44:void_enableControl():DISABLED => ++DISABLED
+AOIS_16:44:void_enableControl():DISABLED => --DISABLED
+AOIS_17:44:void_enableControl():DISABLED => DISABLED++
+AOIS_18:44:void_enableControl():DISABLED => DISABLED--
+AOIS_19:47:void_enableControl():ENABLED => ++ENABLED
+AOIS_20:47:void_enableControl():ENABLED => --ENABLED
+AOIS_21:47:void_enableControl():ENABLED => ENABLED++
+AOIS_22:47:void_enableControl():ENABLED => ENABLED--
+AOIS_23:53:void_disableControl():state => ++state
+AOIS_24:53:void_disableControl():state => --state
+AOIS_25:53:void_disableControl():state => state++
+AOIS_26:53:void_disableControl():state => state--
+AOIS_27:53:void_disableControl():ENABLED => ++ENABLED
+AOIS_28:53:void_disableControl():ENABLED => --ENABLED
+AOIS_29:53:void_disableControl():ENABLED => ENABLED++
+AOIS_30:53:void_disableControl():ENABLED => ENABLED--
+AOIS_31:54:void_disableControl():DISABLED => ++DISABLED
+AOIS_32:54:void_disableControl():DISABLED => --DISABLED
+AOIS_33:54:void_disableControl():DISABLED => DISABLED++
+AOIS_34:54:void_disableControl():DISABLED => DISABLED--
+AOIS_35:61:void_run():state => ++state
+AOIS_36:61:void_run():state => --state
+AOIS_37:61:void_run():state => state++
+AOIS_38:61:void_run():state => state--
+AOIS_39:61:void_run():ENABLED => ++ENABLED
+AOIS_40:61:void_run():ENABLED => --ENABLED
+AOIS_41:61:void_run():ENABLED => ENABLED++
+AOIS_42:61:void_run():ENABLED => ENABLED--
+AOIS_43:62:void_run():state => ++state
+AOIS_44:62:void_run():state => --state
+AOIS_45:62:void_run():state => state++
+AOIS_46:62:void_run():state => state--
+AOIS_47:62:void_run():ENABLED => ++ENABLED
+AOIS_48:62:void_run():ENABLED => --ENABLED
+AOIS_49:62:void_run():ENABLED => ENABLED++
+AOIS_50:62:void_run():ENABLED => ENABLED--
+AOIS_51:65:void_run():setSpeed => ++setSpeed
+AOIS_52:65:void_run():setSpeed => --setSpeed
+AOIS_53:65:void_run():setSpeed => setSpeed++
+AOIS_54:65:void_run():setSpeed => setSpeed--
+AOIS_55:66:void_run():setSpeed => ++setSpeed
+AOIS_56:66:void_run():setSpeed => --setSpeed
+AOIS_57:66:void_run():setSpeed => setSpeed++
+AOIS_58:66:void_run():setSpeed => setSpeed--
+AOIS_59:67:void_run():steady => ++steady
+AOIS_60:67:void_run():steady => --steady
+AOIS_61:67:void_run():steady => steady++
+AOIS_62:67:void_run():steady => steady--
+AOIS_63:67:void_run():error => ++error
+AOIS_64:67:void_run():error => --error
+AOIS_65:67:void_run():error => error++
+AOIS_66:67:void_run():error => error--
+AOIS_67:79:int_getState():state => state++
+AOIS_68:79:int_getState():state => state--
+AOIS_69:84:int_getCruiseSpeed():setSpeed => setSpeed++
+AOIS_70:84:int_getCruiseSpeed():setSpeed => setSpeed--
+ROR_1:37:void_clearSpeed(): state == DISABLED  =>   state > DISABLED
+ROR_2:37:void_clearSpeed(): state == DISABLED  =>   state >= DISABLED
+ROR_3:37:void_clearSpeed(): state == DISABLED  =>   state < DISABLED
+ROR_4:37:void_clearSpeed(): state == DISABLED  =>   state <= DISABLED
+ROR_5:37:void_clearSpeed(): state == DISABLED  =>   state != DISABLED
+ROR_6:37:void_clearSpeed(): state == DISABLED  =>   true
+ROR_7:37:void_clearSpeed(): state == DISABLED  =>   false
+ROR_8:44:void_enableControl(): state == DISABLED  =>   state > DISABLED
+ROR_9:44:void_enableControl(): state == DISABLED  =>   state >= DISABLED
+ROR_10:44:void_enableControl(): state == DISABLED  =>   state < DISABLED
+ROR_11:44:void_enableControl(): state == DISABLED  =>   state <= DISABLED
+ROR_12:44:void_enableControl(): state == DISABLED  =>   state != DISABLED
+ROR_13:44:void_enableControl(): state == DISABLED  =>   true
+ROR_14:44:void_enableControl(): state == DISABLED  =>   false
+ROR_15:53:void_disableControl(): state == ENABLED  =>   state > ENABLED
+ROR_16:53:void_disableControl(): state == ENABLED  =>   state >= ENABLED
+ROR_17:53:void_disableControl(): state == ENABLED  =>   state < ENABLED
+ROR_18:53:void_disableControl(): state == ENABLED  =>   state <= ENABLED
+ROR_19:53:void_disableControl(): state == ENABLED  =>   state != ENABLED
+ROR_20:53:void_disableControl(): state == ENABLED  =>   true
+ROR_21:53:void_disableControl(): state == ENABLED  =>   false
+ROR_22:61:void_run(): state == ENABLED  =>   state > ENABLED
+ROR_23:61:void_run(): state == ENABLED  =>   state >= ENABLED
+ROR_24:61:void_run(): state == ENABLED  =>   state < ENABLED
+ROR_25:61:void_run(): state == ENABLED  =>   state <= ENABLED
+ROR_26:61:void_run(): state == ENABLED  =>   state != ENABLED
+ROR_27:61:void_run(): state == ENABLED  =>   true
+ROR_28:61:void_run(): state == ENABLED  =>   false
+ROR_29:62:void_run(): state == ENABLED  =>   state > ENABLED
+ROR_30:62:void_run(): state == ENABLED  =>   state >= ENABLED
+ROR_31:62:void_run(): state == ENABLED  =>   state < ENABLED
+ROR_32:62:void_run(): state == ENABLED  =>   state <= ENABLED
+ROR_33:62:void_run(): state == ENABLED  =>   state != ENABLED
+ROR_34:62:void_run(): state == ENABLED  =>   true
+ROR_35:62:void_run(): state == ENABLED  =>   false
+COI_1:37:void_clearSpeed(): state == DISABLED  =>  !(state == DISABLED)
+COI_2:44:void_enableControl(): state == DISABLED  =>  !(state == DISABLED)
+COI_3:53:void_disableControl(): state == ENABLED  =>  !(state == ENABLED)
+COI_4:61:void_run(): state == ENABLED  =>  !(state == ENABLED)
+COI_5:62:void_run(): state == ENABLED  =>  !(state == ENABLED)
+LOI_2:37:void_clearSpeed():state => ~state
+LOI_3:37:void_clearSpeed():DISABLED => ~DISABLED
+LOI_4:44:void_enableControl():state => ~state
+LOI_5:44:void_enableControl():DISABLED => ~DISABLED
+LOI_6:47:void_enableControl():ENABLED => ~ENABLED
+LOI_7:53:void_disableControl():state => ~state
+LOI_8:53:void_disableControl():ENABLED => ~ENABLED
+LOI_9:54:void_disableControl():DISABLED => ~DISABLED
+LOI_10:61:void_run():state => ~state
+LOI_11:61:void_run():ENABLED => ~ENABLED
+LOI_12:62:void_run():state => ~state
+LOI_13:62:void_run():ENABLED => ~ENABLED
+LOI_14:65:void_run():setSpeed => ~setSpeed
+LOI_15:66:void_run():setSpeed => ~setSpeed
+LOI_16:67:void_run():steady => ~steady
+LOI_17:67:void_run():error => ~error
+LOI_18:79:int_getState():state => ~state
+LOI_19:84:int_getCruiseSpeed():setSpeed => ~setSpeed
+SDL_1:27:SpeedControl(simulate.CarSimulator): this.cs = cs;  =>  
+SDL_2:32:void_recordSpeed(): setSpeed = cs.getSpeed();  =>  
+SDL_3:37:void_clearSpeed(): if (state == DISABLED) {     setSpeed = 0; }  =>  
+SDL_4:38:void_clearSpeed(): setSpeed = 0;  =>  
+SDL_5:40:void_clearSpeed(): if (state == DISABLED) {     setSpeed = 0; }  =>   if (true) {     setSpeed = 0; }
+SDL_6:44:void_enableControl(): if (state == DISABLED) {     speedController = new java.lang.Thread( this );     speedController.start();     state = ENABLED; }  =>  
+SDL_7:47:void_enableControl(): speedController = new java.lang.Thread( this ); speedController.start(); state = ENABLED;  =>   speedController.start(); state = ENABLED;
+SDL_8:47:void_enableControl(): speedController = new java.lang.Thread( this ); speedController.start(); state = ENABLED;  =>   speedController = new java.lang.Thread( this ); state = ENABLED;
+SDL_9:47:void_enableControl(): speedController = new java.lang.Thread( this ); speedController.start(); state = ENABLED;  =>   speedController = new java.lang.Thread( this ); speedController.start();
+SDL_10:49:void_enableControl(): if (state == DISABLED) {     speedController = new java.lang.Thread( this );     speedController.start();     state = ENABLED; }  =>   if (true) {     speedController = new java.lang.Thread( this );     speedController.start();     state = ENABLED; }
+SDL_11:53:void_disableControl(): if (state == ENABLED) {     state = DISABLED; }  =>  
+SDL_12:54:void_disableControl(): state = DISABLED;  =>  
+SDL_13:56:void_disableControl(): if (state == ENABLED) {     state = DISABLED; }  =>   if (true) {     state = DISABLED; }
+SDL_14:74:void_run(): try {     while (state == ENABLED) {         if (state == ENABLED) {             synchronized (this) {                 double error = (float) (setSpeed - cs.getSpeed()) / 6.0;                 double steady = (double) setSpeed / 12.0;                 cs.setThrottle( steady + error );             }         }         Thread.sleep( 500 );     } } catch ( java.lang.InterruptedException e ) { } speedController = null;  =>   try {     while (state == ENABLED) {         if (state == ENABLED) {             synchronized (this) {                 double error = (float) (setSpeed - cs.getSpeed()) / 6.0;                 double steady = (double) setSpeed / 12.0;                 cs.setThrottle( steady + error );             }         }         Thread.sleep( 500 );     } } catch ( java.lang.InterruptedException e ) { }
+SDL_15:62:void_run(): try {     while (state == ENABLED) {         if (state == ENABLED) {             synchronized (this) {                 double error = (float) (setSpeed - cs.getSpeed()) / 6.0;                 double steady = (double) setSpeed / 12.0;                 cs.setThrottle( steady + error );             }         }         Thread.sleep( 500 );     } } catch ( java.lang.InterruptedException e ) { }  =>   try { }
+SDL_16:63:void_run(): if (state == ENABLED) {     synchronized (this) {         double error = (float) (setSpeed - cs.getSpeed()) / 6.0;         double steady = (double) setSpeed / 12.0;         cs.setThrottle( steady + error );     } } Thread.sleep( 500 );  =>   Thread.sleep( 500 );
+SDL_17:70:void_run(): if (state == ENABLED) {     synchronized (this) {         double error = (float) (setSpeed - cs.getSpeed()) / 6.0;         double steady = (double) setSpeed / 12.0;         cs.setThrottle( steady + error );     } } Thread.sleep( 500 );  =>   if (state == ENABLED) {     synchronized (this) {         double error = (float) (setSpeed - cs.getSpeed()) / 6.0;         double steady = (double) setSpeed / 12.0;         cs.setThrottle( steady + error );     } }
+SDL_18:72:void_run(): while (state == ENABLED) {     if (state == ENABLED) {         synchronized (this) {             double error = (float) (setSpeed - cs.getSpeed()) / 6.0;             double steady = (double) setSpeed / 12.0;             cs.setThrottle( steady + error );         }     }     Thread.sleep( 500 ); }  =>   while (true) {     if (state == ENABLED) {         synchronized (this) {             double error = (float) (setSpeed - cs.getSpeed()) / 6.0;             double steady = (double) setSpeed / 12.0;             cs.setThrottle( steady + error );         }     }     Thread.sleep( 500 ); }
+SDL_19:63:void_run(): synchronized (this) {     double error = (float) (setSpeed - cs.getSpeed()) / 6.0;     double steady = (double) setSpeed / 12.0;     cs.setThrottle( steady + error ); }  =>  
+SDL_20:70:void_run(): if (state == ENABLED) {     synchronized (this) {         double error = (float) (setSpeed - cs.getSpeed()) / 6.0;         double steady = (double) setSpeed / 12.0;         cs.setThrottle( steady + error );     } }  =>   if (true) {     synchronized (this) {         double error = (float) (setSpeed - cs.getSpeed()) / 6.0;         double steady = (double) setSpeed / 12.0;         cs.setThrottle( steady + error );     } }
+SDL_21:80:int_getState(): return state;  =>   return 0;
+SDL_22:85:int_getCruiseSpeed(): return setSpeed;  =>   return 0;
+VDL_1:37:void_clearSpeed():state == DISABLED => DISABLED
+VDL_2:37:void_clearSpeed():state == DISABLED => state
+VDL_3:44:void_enableControl():state == DISABLED => DISABLED
+VDL_4:44:void_enableControl():state == DISABLED => state
+VDL_5:53:void_disableControl():state == ENABLED => ENABLED
+VDL_6:53:void_disableControl():state == ENABLED => state
+VDL_7:61:void_run():state == ENABLED => ENABLED
+VDL_8:61:void_run():state == ENABLED => state
+VDL_9:62:void_run():state == ENABLED => ENABLED
+VDL_10:62:void_run():state == ENABLED => state
+VDL_11:65:void_run():setSpeed - cs.getSpeed() => cs.getSpeed()
+VDL_12:67:void_run():steady + error => error
+VDL_13:67:void_run():steady + error => steady
+ODL_1:37:void_clearSpeed():state == DISABLED => state
+ODL_2:37:void_clearSpeed():state == DISABLED => DISABLED
+ODL_3:44:void_enableControl():state == DISABLED => state
+ODL_4:44:void_enableControl():state == DISABLED => DISABLED
+ODL_5:53:void_disableControl():state == ENABLED => state
+ODL_6:53:void_disableControl():state == ENABLED => ENABLED
+ODL_7:61:void_run():state == ENABLED => state
+ODL_8:61:void_run():state == ENABLED => ENABLED
+ODL_9:62:void_run():state == ENABLED => state
+ODL_10:62:void_run():state == ENABLED => ENABLED
+ODL_11:65:void_run():setSpeed - cs.getSpeed() => setSpeed
+ODL_12:65:void_run():setSpeed - cs.getSpeed() => cs.getSpeed()
+ODL_13:65:void_run():(float) (setSpeed - cs.getSpeed()) / 6.0 => (float) (setSpeed - cs.getSpeed())
+ODL_14:65:void_run():(float) (setSpeed - cs.getSpeed()) / 6.0 => 6.0
+ODL_15:66:void_run():(double) setSpeed / 12.0 => (double) setSpeed
+ODL_16:66:void_run():(double) setSpeed / 12.0 => 12.0
+ODL_17:67:void_run():steady + error => steady
+ODL_18:67:void_run():steady + error => error
+CDL_1:65:void_run():(float) (setSpeed - cs.getSpeed()) / 6.0 => (float) (setSpeed - cs.getSpeed())
+CDL_2:66:void_run():(double) setSpeed / 12.0 => (double) setSpeed

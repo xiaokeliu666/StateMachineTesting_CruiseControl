@@ -1,0 +1,17 @@
+JSD_1:22:static is deleted
+JSD_2:24:static is deleted
+JSD_3:26:static is deleted
+JSD_4:28:static is deleted
+JSD_5:30:static is deleted
+JSI_1:10:static is inserted
+JSI_2:12:static is inserted
+JSI_3:14:static is inserted
+JSI_4:16:static is inserted
+JSI_5:18:static is inserted
+JSI_6:20:static is inserted
+JID_1:10:private boolean ignitionfalse => private boolean ignition;
+JID_2:12:private double throttle0.0 => private double throttle;
+JID_3:14:private int speed0 => private int speed;
+JID_4:16:private int distance0 => private int distance;
+JID_5:18:private int brakepedal0 => private int brakepedal;
+JID_6:20: java.lang.Thread enginenull =>  java.lang.Thread engine;

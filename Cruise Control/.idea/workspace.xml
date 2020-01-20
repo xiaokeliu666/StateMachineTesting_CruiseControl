@@ -1,0 +1,251 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="5bdaa46f-dbc7-4b40-8dd7-f43b11129b93" name="Default Changelist" comment="" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CoverageViewManager">
+    <option name="myElementSize" value="85" />
+  </component>
+  <component name="ExportToHTMLSettings">
+    <option name="OPEN_IN_BROWSER" value="true" />
+    <option name="OUTPUT_DIRECTORY" value="C:\Users\Shock\Desktop\result" />
+  </component>
+  <component name="ProjectId" id="1R4ZCvhzPYP929hTZhEpHOz9eJu" />
+  <component name="PropertiesComponent">
+    <property name="Downloaded.Files.Path.Enabled" value="false" />
+    <property name="Repository.Attach.Annotations" value="false" />
+    <property name="Repository.Attach.JavaDocs" value="false" />
+    <property name="Repository.Attach.Sources" value="false" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$USER_HOME$/Desktop" />
+    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="junittest" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="JUnit.jtestAEF">
+    <configuration name="jtestAEF" type="JUnit" factoryName="JUnit" nameIsGenerated="true">
+      <module name="Cruise Control" />
+      <extension name="coverage" sample_coverage="false">
+        <pattern>
+          <option name="PATTERN" value="junittest.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="junittest" />
+      <option name="MAIN_CLASS_NAME" value="junittest.jtestAEF" />
+      <option name="METHOD_NAME" value="" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="PARAMETERS" value="" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="jtestAES" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Cruise Control" />
+      <extension name="coverage" sample_coverage="false">
+        <pattern>
+          <option name="PATTERN" value="junittest.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="junittest" />
+      <option name="MAIN_CLASS_NAME" value="junittest.jtestAES" />
+      <option name="METHOD_NAME" value="" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="PARAMETERS" value="" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="jtestEPF" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Cruise Control" />
+      <extension name="coverage" sample_coverage="false">
+        <pattern>
+          <option name="PATTERN" value="junittest.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="junittest" />
+      <option name="MAIN_CLASS_NAME" value="junittest.jtestEPF" />
+      <option name="METHOD_NAME" value="" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="PARAMETERS" value="" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="jtestEPS" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Cruise Control" />
+      <extension name="coverage" sample_coverage="false">
+        <pattern>
+          <option name="PATTERN" value="junittest.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="junittest" />
+      <option name="MAIN_CLASS_NAME" value="junittest.jtestEPS" />
+      <option name="METHOD_NAME" value="" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="PARAMETERS" value="" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="jtestRT" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Cruise Control" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="junittest.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="junittest" />
+      <option name="MAIN_CLASS_NAME" value="junittest.jtestRT" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="junittest in Cruise Control" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Cruise Control" />
+      <extension name="coverage" sample_coverage="false">
+        <pattern>
+          <option name="PATTERN" value="junittest.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="junittest" />
+      <option name="MAIN_CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="TEST_OBJECT" value="package" />
+      <option name="PARAMETERS" value="" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="cruisePitTest" type="PIT" factoryName="PIT Runner" REPORT_DIR="$PROJECT_DIR$/report" SOURCE_DIRS="$PROJECT_DIR$/src" TARGET_CLASSES="src.simulate.*" TARGET_TESTS="test.junitest.*" otherParams="--outputFormats XML,HTML">
+      <module name="Cruise Control" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="JUnit.jtestAEF" />
+      <item itemvalue="JUnit.jtestAES" />
+      <item itemvalue="JUnit.jtestEPF" />
+      <item itemvalue="JUnit.jtestEPS" />
+      <item itemvalue="JUnit.junittest in Cruise Control" />
+      <item itemvalue="JUnit.jtestRT" />
+      <item itemvalue="PIT Runner.cruisePitTest" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.junittest in Cruise Control" />
+        <item itemvalue="JUnit.jtestAES" />
+        <item itemvalue="JUnit.jtestEPS" />
+        <item itemvalue="JUnit.jtestEPF" />
+        <item itemvalue="JUnit.jtestRT" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="5bdaa46f-dbc7-4b40-8dd7-f43b11129b93" name="Default Changelist" comment="" />
+      <created>1568928205011</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1568928205011</updated>
+      <workItem from="1568928216633" duration="641000" />
+      <workItem from="1569034906809" duration="75000" />
+      <workItem from="1573766469655" duration="893000" />
+      <workItem from="1574797723748" duration="5360000" />
+      <workItem from="1574805125889" duration="27000" />
+      <workItem from="1574830685190" duration="5642000" />
+      <workItem from="1574913529245" duration="5980000" />
+      <workItem from="1575442612801" duration="389000" />
+      <workItem from="1575476654042" duration="3790000" />
+      <workItem from="1575491078806" duration="461000" />
+      <workItem from="1575491585789" duration="8042000" />
+      <workItem from="1575516500277" duration="14845000" />
+      <workItem from="1575595172249" duration="5205000" />
+      <workItem from="1575657429967" duration="2441000" />
+      <workItem from="1575669044456" duration="4729000" />
+      <workItem from="1575681387864" duration="91000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/Cruise_Control$jtestAEF.ic" NAME="jtestAEF Coverage Results" MODIFIED="1575681405103" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="true">
+      <FILTER>junittest.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/Cruise_Control$jtestAEF_testsimulate.ic" NAME="jtestAEF.testsimulate Coverage Results" MODIFIED="1575498432068" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>junittest.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/Cruise_Control$jtestEPF.ic" NAME="jtestEPF Coverage Results" MODIFIED="1575581548514" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="true">
+      <FILTER>junittest.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/Cruise_Control$junittest_in_Cruise_Control.ic" NAME="junittest in Cruise Control Coverage Results" MODIFIED="1575679516519" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="true">
+      <FILTER>junittest.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/Cruise_Control$jtestRT.ic" NAME="jtestRT Coverage Results" MODIFIED="1575520934882" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>junittest.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/Cruise_Control$jtestEPF.exec" NAME="jtestEPF Coverage Results" MODIFIED="1575580590321" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="jacoco" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>junittest.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/Cruise_Control$jtestEPS.ic" NAME="jtestEPS Coverage Results" MODIFIED="1575581559120" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="true">
+      <FILTER>junittest.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/Cruise_Control$jtestAES.exec" NAME="jtestAES Coverage Results" MODIFIED="1575580212865" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="jacoco" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>junittest.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/Cruise_Control$jtestAES.ic" NAME="jtestAES Coverage Results" MODIFIED="1575581541414" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="true">
+      <FILTER>junittest.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/Cruise_Control$junittest_in_Cruise_Control.es" NAME="junittest in Cruise Control Coverage Results" MODIFIED="1575600872694" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="emma" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>junittest.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/Cruise_Control$jtestAEF.es" NAME="jtestAEF Coverage Results" MODIFIED="1575518918236" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="emma" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>junittest.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/Cruise_Control$jtestAEF.exec" NAME="jtestAEF Coverage Results" MODIFIED="1575580251138" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="jacoco" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>junittest.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/Cruise_Control$jtestEPS.exec" NAME="jtestEPS Coverage Results" MODIFIED="1575580610180" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="jacoco" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>junittest.*</FILTER>
+    </SUITE>
+  </component>
+</project>

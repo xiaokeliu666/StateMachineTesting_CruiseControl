@@ -1,0 +1,4 @@
+CruiseControl()
+boolean_handleCommand(java.lang.String)
+simulate.CarSimulator_getCar()
+simulate.Controller_getControl()

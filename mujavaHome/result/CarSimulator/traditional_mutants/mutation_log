@@ -1,0 +1,489 @@
+AORB_1:62:void_accelerate():maxThrottle - 5 => maxThrottle * 5
+AORB_2:62:void_accelerate():maxThrottle - 5 => maxThrottle / 5
+AORB_3:62:void_accelerate():maxThrottle - 5 => maxThrottle % 5
+AORB_4:62:void_accelerate():maxThrottle - 5 => maxThrottle + 5
+AORB_5:76:void_brake():maxBrake - 1 => maxBrake * 1
+AORB_6:76:void_brake():maxBrake - 1 => maxBrake / 1
+AORB_7:76:void_brake():maxBrake - 1 => maxBrake % 1
+AORB_8:76:void_brake():maxBrake - 1 => maxBrake + 1
+AORB_9:92:void_run():fspeed / airResistance => fspeed * airResistance
+AORB_10:92:void_run():fspeed / airResistance => fspeed % airResistance
+AORB_11:92:void_run():fspeed / airResistance => fspeed + airResistance
+AORB_12:92:void_run():fspeed / airResistance => fspeed - airResistance
+AORB_13:92:void_run():throttle - fspeed / airResistance => throttle * (fspeed / airResistance)
+AORB_14:92:void_run():throttle - fspeed / airResistance => throttle / (fspeed / airResistance)
+AORB_15:92:void_run():throttle - fspeed / airResistance => throttle % (fspeed / airResistance)
+AORB_16:92:void_run():throttle - fspeed / airResistance => throttle + fspeed / airResistance
+AORB_17:92:void_run():2 * brakepedal => 2 / brakepedal
+AORB_18:92:void_run():2 * brakepedal => 2 % brakepedal
+AORB_19:92:void_run():2 * brakepedal => 2 + brakepedal
+AORB_20:92:void_run():2 * brakepedal => 2 - brakepedal
+AORB_21:92:void_run():throttle - fspeed / airResistance - 2 * brakepedal => (throttle - fspeed / airResistance) * (2 * brakepedal)
+AORB_22:92:void_run():throttle - fspeed / airResistance - 2 * brakepedal => (throttle - fspeed / airResistance) / (2 * brakepedal)
+AORB_23:92:void_run():throttle - fspeed / airResistance - 2 * brakepedal => (throttle - fspeed / airResistance) % (2 * brakepedal)
+AORB_24:92:void_run():throttle - fspeed / airResistance - 2 * brakepedal => throttle - fspeed / airResistance + 2 * brakepedal
+AORB_25:92:void_run():(throttle - fspeed / airResistance - 2 * brakepedal) / ticksPerSecond => (throttle - fspeed / airResistance - 2 * brakepedal) * ticksPerSecond
+AORB_26:92:void_run():(throttle - fspeed / airResistance - 2 * brakepedal) / ticksPerSecond => (throttle - fspeed / airResistance - 2 * brakepedal) % ticksPerSecond
+AORB_27:92:void_run():(throttle - fspeed / airResistance - 2 * brakepedal) / ticksPerSecond => throttle - fspeed / airResistance - 2 * brakepedal + ticksPerSecond
+AORB_28:92:void_run():(throttle - fspeed / airResistance - 2 * brakepedal) / ticksPerSecond => throttle - fspeed / airResistance - 2 * brakepedal - ticksPerSecond
+AORB_29:92:void_run():fspeed + (throttle - fspeed / airResistance - 2 * brakepedal) / ticksPerSecond => fspeed * ((throttle - fspeed / airResistance - 2 * brakepedal) / ticksPerSecond)
+AORB_30:92:void_run():fspeed + (throttle - fspeed / airResistance - 2 * brakepedal) / ticksPerSecond => fspeed / ((throttle - fspeed / airResistance - 2 * brakepedal) / ticksPerSecond)
+AORB_31:92:void_run():fspeed + (throttle - fspeed / airResistance - 2 * brakepedal) / ticksPerSecond => fspeed % ((throttle - fspeed / airResistance - 2 * brakepedal) / ticksPerSecond)
+AORB_32:92:void_run():fspeed + (throttle - fspeed / airResistance - 2 * brakepedal) / ticksPerSecond => fspeed - (throttle - fspeed / airResistance - 2 * brakepedal) / ticksPerSecond
+AORB_33:99:void_run():fspeed / 36.0 => fspeed * 36.0
+AORB_34:99:void_run():fspeed / 36.0 => fspeed % 36.0
+AORB_35:99:void_run():fspeed / 36.0 => fspeed + 36.0
+AORB_36:99:void_run():fspeed / 36.0 => fspeed - 36.0
+AORB_37:99:void_run():fspeed / 36.0 / ticksPerSecond => fspeed / 36.0 * ticksPerSecond
+AORB_38:99:void_run():fspeed / 36.0 / ticksPerSecond => fspeed / 36.0 % ticksPerSecond
+AORB_39:99:void_run():fspeed / 36.0 / ticksPerSecond => fspeed / 36.0 + ticksPerSecond
+AORB_40:99:void_run():fspeed / 36.0 / ticksPerSecond => fspeed / 36.0 - ticksPerSecond
+AORB_41:99:void_run():fdist + fspeed / 36.0 / ticksPerSecond => fdist * (fspeed / 36.0 / ticksPerSecond)
+AORB_42:99:void_run():fdist + fspeed / 36.0 / ticksPerSecond => fdist / (fspeed / 36.0 / ticksPerSecond)
+AORB_43:99:void_run():fdist + fspeed / 36.0 / ticksPerSecond => fdist % (fspeed / 36.0 / ticksPerSecond)
+AORB_44:99:void_run():fdist + fspeed / 36.0 / ticksPerSecond => fdist - fspeed / 36.0 / ticksPerSecond
+AORB_45:103:void_run():0.5 / ticksPerSecond => 0.5 * ticksPerSecond
+AORB_46:103:void_run():0.5 / ticksPerSecond => 0.5 % ticksPerSecond
+AORB_47:103:void_run():0.5 / ticksPerSecond => 0.5 + ticksPerSecond
+AORB_48:103:void_run():0.5 / ticksPerSecond => 0.5 - ticksPerSecond
+AORB_49:109:void_run():1000 / ticksPerSecond => 1000 * ticksPerSecond
+AORB_50:109:void_run():1000 / ticksPerSecond => 1000 % ticksPerSecond
+AORB_51:109:void_run():1000 / ticksPerSecond => 1000 + ticksPerSecond
+AORB_52:109:void_run():1000 / ticksPerSecond => 1000 - ticksPerSecond
+AOIU_1:59:void_accelerate():brakepedal => -brakepedal
+AOIU_2:62:void_accelerate():throttle => -throttle
+AOIU_3:62:void_accelerate():maxThrottle => -maxThrottle
+AOIU_4:65:void_accelerate():maxThrottle => -maxThrottle
+AOIU_5:73:void_brake():throttle => -throttle
+AOIU_6:76:void_brake():brakepedal => -brakepedal
+AOIU_7:76:void_brake():maxBrake => -maxBrake
+AOIU_8:79:void_brake():maxBrake => -maxBrake
+AOIU_9:92:void_run():fspeed => -fspeed
+AOIU_10:93:void_run():fspeed => -fspeed
+AOIU_11:93:void_run():maxSpeed => -maxSpeed
+AOIU_12:94:void_run():maxSpeed => -maxSpeed
+AOIU_13:96:void_run():fspeed => -fspeed
+AOIU_14:99:void_run():fdist => -fdist
+AOIU_15:100:void_run():fspeed => -fspeed
+AOIU_16:101:void_run():fdist => -fdist
+AOIU_17:102:void_run():throttle => -throttle
+AOIU_18:103:void_run():ticksPerSecond => -ticksPerSecond
+AOIU_19:105:void_run():throttle => -throttle
+AOIU_20:109:void_run():ticksPerSecond => -ticksPerSecond
+AOIU_21:118:void_setThrottle(double):val => -val
+AOIU_22:119:void_setThrottle(double):throttle => -throttle
+AOIU_23:122:void_setThrottle(double):throttle => -throttle
+AOIU_24:130:int_getSpeed():speed => -speed
+AOIU_25:140:double_getThrottle():throttle => -throttle
+AOIU_26:145:int_getBrakepedal():brakepedal => -brakepedal
+AOIU_27:150:int_getDistance():distance => -distance
+AOIS_1:59:void_accelerate():brakepedal => ++brakepedal
+AOIS_2:59:void_accelerate():brakepedal => --brakepedal
+AOIS_3:59:void_accelerate():brakepedal => brakepedal++
+AOIS_4:59:void_accelerate():brakepedal => brakepedal--
+AOIS_5:62:void_accelerate():throttle => ++throttle
+AOIS_6:62:void_accelerate():throttle => --throttle
+AOIS_7:62:void_accelerate():throttle => throttle++
+AOIS_8:62:void_accelerate():throttle => throttle--
+AOIS_9:62:void_accelerate():maxThrottle => ++maxThrottle
+AOIS_10:62:void_accelerate():maxThrottle => --maxThrottle
+AOIS_11:62:void_accelerate():maxThrottle => maxThrottle++
+AOIS_12:62:void_accelerate():maxThrottle => maxThrottle--
+AOIS_13:65:void_accelerate():maxThrottle => ++maxThrottle
+AOIS_14:65:void_accelerate():maxThrottle => --maxThrottle
+AOIS_15:65:void_accelerate():maxThrottle => maxThrottle++
+AOIS_16:65:void_accelerate():maxThrottle => maxThrottle--
+AOIS_17:73:void_brake():throttle => ++throttle
+AOIS_18:73:void_brake():throttle => --throttle
+AOIS_19:73:void_brake():throttle => throttle++
+AOIS_20:73:void_brake():throttle => throttle--
+AOIS_21:76:void_brake():brakepedal => ++brakepedal
+AOIS_22:76:void_brake():brakepedal => --brakepedal
+AOIS_23:76:void_brake():brakepedal => brakepedal++
+AOIS_24:76:void_brake():brakepedal => brakepedal--
+AOIS_25:76:void_brake():maxBrake => ++maxBrake
+AOIS_26:76:void_brake():maxBrake => --maxBrake
+AOIS_27:76:void_brake():maxBrake => maxBrake++
+AOIS_28:76:void_brake():maxBrake => maxBrake--
+AOIS_29:79:void_brake():maxBrake => ++maxBrake
+AOIS_30:79:void_brake():maxBrake => --maxBrake
+AOIS_31:79:void_brake():maxBrake => maxBrake++
+AOIS_32:79:void_brake():maxBrake => maxBrake--
+AOIS_33:92:void_run():fspeed => ++fspeed
+AOIS_34:92:void_run():fspeed => --fspeed
+AOIS_35:92:void_run():fspeed => fspeed++
+AOIS_36:92:void_run():fspeed => fspeed--
+AOIS_37:92:void_run():throttle => ++throttle
+AOIS_38:92:void_run():throttle => --throttle
+AOIS_39:92:void_run():throttle => throttle++
+AOIS_40:92:void_run():throttle => throttle--
+AOIS_41:92:void_run():fspeed => ++fspeed
+AOIS_42:92:void_run():fspeed => --fspeed
+AOIS_43:92:void_run():fspeed => fspeed++
+AOIS_44:92:void_run():fspeed => fspeed--
+AOIS_45:92:void_run():airResistance => ++airResistance
+AOIS_46:92:void_run():airResistance => --airResistance
+AOIS_47:92:void_run():airResistance => airResistance++
+AOIS_48:92:void_run():airResistance => airResistance--
+AOIS_49:92:void_run():brakepedal => ++brakepedal
+AOIS_50:92:void_run():brakepedal => --brakepedal
+AOIS_51:92:void_run():brakepedal => brakepedal++
+AOIS_52:92:void_run():brakepedal => brakepedal--
+AOIS_53:92:void_run():ticksPerSecond => ticksPerSecond++
+AOIS_54:92:void_run():ticksPerSecond => ticksPerSecond--
+AOIS_55:93:void_run():fspeed => ++fspeed
+AOIS_56:93:void_run():fspeed => --fspeed
+AOIS_57:93:void_run():fspeed => fspeed++
+AOIS_58:93:void_run():fspeed => fspeed--
+AOIS_59:93:void_run():maxSpeed => ++maxSpeed
+AOIS_60:93:void_run():maxSpeed => --maxSpeed
+AOIS_61:93:void_run():maxSpeed => maxSpeed++
+AOIS_62:93:void_run():maxSpeed => maxSpeed--
+AOIS_63:94:void_run():maxSpeed => ++maxSpeed
+AOIS_64:94:void_run():maxSpeed => --maxSpeed
+AOIS_65:94:void_run():maxSpeed => maxSpeed++
+AOIS_66:94:void_run():maxSpeed => maxSpeed--
+AOIS_67:96:void_run():fspeed => ++fspeed
+AOIS_68:96:void_run():fspeed => --fspeed
+AOIS_69:96:void_run():fspeed => fspeed++
+AOIS_70:96:void_run():fspeed => fspeed--
+AOIS_71:99:void_run():fdist => ++fdist
+AOIS_72:99:void_run():fdist => --fdist
+AOIS_73:99:void_run():fdist => fdist++
+AOIS_74:99:void_run():fdist => fdist--
+AOIS_75:99:void_run():fspeed => ++fspeed
+AOIS_76:99:void_run():fspeed => --fspeed
+AOIS_77:99:void_run():fspeed => fspeed++
+AOIS_78:99:void_run():fspeed => fspeed--
+AOIS_79:99:void_run():ticksPerSecond => ticksPerSecond++
+AOIS_80:99:void_run():ticksPerSecond => ticksPerSecond--
+AOIS_81:100:void_run():fspeed => ++fspeed
+AOIS_82:100:void_run():fspeed => --fspeed
+AOIS_83:100:void_run():fspeed => fspeed++
+AOIS_84:100:void_run():fspeed => fspeed--
+AOIS_85:101:void_run():fdist => ++fdist
+AOIS_86:101:void_run():fdist => --fdist
+AOIS_87:101:void_run():fdist => fdist++
+AOIS_88:101:void_run():fdist => fdist--
+AOIS_89:102:void_run():throttle => ++throttle
+AOIS_90:102:void_run():throttle => --throttle
+AOIS_91:102:void_run():throttle => throttle++
+AOIS_92:102:void_run():throttle => throttle--
+AOIS_93:103:void_run():ticksPerSecond => ++ticksPerSecond
+AOIS_94:103:void_run():ticksPerSecond => --ticksPerSecond
+AOIS_95:103:void_run():ticksPerSecond => ticksPerSecond++
+AOIS_96:103:void_run():ticksPerSecond => ticksPerSecond--
+AOIS_97:105:void_run():throttle => ++throttle
+AOIS_98:105:void_run():throttle => --throttle
+AOIS_99:105:void_run():throttle => throttle++
+AOIS_100:105:void_run():throttle => throttle--
+AOIS_101:109:void_run():ticksPerSecond => ++ticksPerSecond
+AOIS_102:109:void_run():ticksPerSecond => --ticksPerSecond
+AOIS_103:109:void_run():ticksPerSecond => ticksPerSecond++
+AOIS_104:109:void_run():ticksPerSecond => ticksPerSecond--
+AOIS_105:118:void_setThrottle(double):val => ++val
+AOIS_106:118:void_setThrottle(double):val => --val
+AOIS_107:118:void_setThrottle(double):val => val++
+AOIS_108:118:void_setThrottle(double):val => val--
+AOIS_109:119:void_setThrottle(double):throttle => ++throttle
+AOIS_110:119:void_setThrottle(double):throttle => --throttle
+AOIS_111:119:void_setThrottle(double):throttle => throttle++
+AOIS_112:119:void_setThrottle(double):throttle => throttle--
+AOIS_113:122:void_setThrottle(double):throttle => ++throttle
+AOIS_114:122:void_setThrottle(double):throttle => --throttle
+AOIS_115:122:void_setThrottle(double):throttle => throttle++
+AOIS_116:122:void_setThrottle(double):throttle => throttle--
+AOIS_117:130:int_getSpeed():speed => speed++
+AOIS_118:130:int_getSpeed():speed => speed--
+AOIS_119:140:double_getThrottle():throttle => throttle++
+AOIS_120:140:double_getThrottle():throttle => throttle--
+AOIS_121:145:int_getBrakepedal():brakepedal => brakepedal++
+AOIS_122:145:int_getBrakepedal():brakepedal => brakepedal--
+AOIS_123:150:int_getDistance():distance => distance++
+AOIS_124:150:int_getDistance():distance => distance--
+ROR_1:40:void_engineOn(): engine == null  =>   engine != null
+ROR_2:58:void_accelerate(): engine != null  =>   engine == null
+ROR_3:59:void_accelerate(): brakepedal > 0  =>   brakepedal >= 0
+ROR_4:59:void_accelerate(): brakepedal > 0  =>   brakepedal < 0
+ROR_5:59:void_accelerate(): brakepedal > 0  =>   brakepedal <= 0
+ROR_6:59:void_accelerate(): brakepedal > 0  =>   brakepedal == 0
+ROR_7:59:void_accelerate(): brakepedal > 0  =>   brakepedal != 0
+ROR_8:59:void_accelerate(): brakepedal > 0  =>   true
+ROR_9:59:void_accelerate(): brakepedal > 0  =>   false
+ROR_10:62:void_accelerate(): throttle < maxThrottle - 5  =>   throttle > maxThrottle - 5
+ROR_11:62:void_accelerate(): throttle < maxThrottle - 5  =>   throttle >= maxThrottle - 5
+ROR_12:62:void_accelerate(): throttle < maxThrottle - 5  =>   throttle <= maxThrottle - 5
+ROR_13:62:void_accelerate(): throttle < maxThrottle - 5  =>   throttle == maxThrottle - 5
+ROR_14:62:void_accelerate(): throttle < maxThrottle - 5  =>   throttle != maxThrottle - 5
+ROR_15:62:void_accelerate(): throttle < maxThrottle - 5  =>   true
+ROR_16:62:void_accelerate(): throttle < maxThrottle - 5  =>   false
+ROR_17:72:void_brake(): engine != null  =>   engine == null
+ROR_18:73:void_brake(): throttle > 0  =>   throttle >= 0
+ROR_19:73:void_brake(): throttle > 0  =>   throttle < 0
+ROR_20:73:void_brake(): throttle > 0  =>   throttle <= 0
+ROR_21:73:void_brake(): throttle > 0  =>   throttle == 0
+ROR_22:73:void_brake(): throttle > 0  =>   throttle != 0
+ROR_23:73:void_brake(): throttle > 0  =>   true
+ROR_24:73:void_brake(): throttle > 0  =>   false
+ROR_25:76:void_brake(): brakepedal < maxBrake - 1  =>   brakepedal > maxBrake - 1
+ROR_26:76:void_brake(): brakepedal < maxBrake - 1  =>   brakepedal >= maxBrake - 1
+ROR_27:76:void_brake(): brakepedal < maxBrake - 1  =>   brakepedal <= maxBrake - 1
+ROR_28:76:void_brake(): brakepedal < maxBrake - 1  =>   brakepedal == maxBrake - 1
+ROR_29:76:void_brake(): brakepedal < maxBrake - 1  =>   brakepedal != maxBrake - 1
+ROR_30:76:void_brake(): brakepedal < maxBrake - 1  =>   true
+ROR_31:76:void_brake(): brakepedal < maxBrake - 1  =>   false
+ROR_32:89:void_run(): engine != null  =>   engine == null
+ROR_33:93:void_run(): fspeed > maxSpeed  =>   fspeed >= maxSpeed
+ROR_34:93:void_run(): fspeed > maxSpeed  =>   fspeed < maxSpeed
+ROR_35:93:void_run(): fspeed > maxSpeed  =>   fspeed <= maxSpeed
+ROR_36:93:void_run(): fspeed > maxSpeed  =>   fspeed == maxSpeed
+ROR_37:93:void_run(): fspeed > maxSpeed  =>   fspeed != maxSpeed
+ROR_38:93:void_run(): fspeed > maxSpeed  =>   true
+ROR_39:93:void_run(): fspeed > maxSpeed  =>   false
+ROR_40:96:void_run(): fspeed < 0  =>   fspeed > 0
+ROR_41:96:void_run(): fspeed < 0  =>   fspeed >= 0
+ROR_42:96:void_run(): fspeed < 0  =>   fspeed <= 0
+ROR_43:96:void_run(): fspeed < 0  =>   fspeed == 0
+ROR_44:96:void_run(): fspeed < 0  =>   fspeed != 0
+ROR_45:96:void_run(): fspeed < 0  =>   true
+ROR_46:96:void_run(): fspeed < 0  =>   false
+ROR_47:102:void_run(): throttle > 0.0  =>   throttle >= 0.0
+ROR_48:102:void_run(): throttle > 0.0  =>   throttle < 0.0
+ROR_49:102:void_run(): throttle > 0.0  =>   throttle <= 0.0
+ROR_50:102:void_run(): throttle > 0.0  =>   throttle == 0.0
+ROR_51:102:void_run(): throttle > 0.0  =>   throttle != 0.0
+ROR_52:102:void_run(): throttle > 0.0  =>   true
+ROR_53:102:void_run(): throttle > 0.0  =>   false
+ROR_54:105:void_run(): throttle < 0.0  =>   throttle > 0.0
+ROR_55:105:void_run(): throttle < 0.0  =>   throttle >= 0.0
+ROR_56:105:void_run(): throttle < 0.0  =>   throttle <= 0.0
+ROR_57:105:void_run(): throttle < 0.0  =>   throttle == 0.0
+ROR_58:105:void_run(): throttle < 0.0  =>   throttle != 0.0
+ROR_59:105:void_run(): throttle < 0.0  =>   true
+ROR_60:105:void_run(): throttle < 0.0  =>   false
+ROR_61:119:void_setThrottle(double): throttle < 0.0  =>   throttle > 0.0
+ROR_62:119:void_setThrottle(double): throttle < 0.0  =>   throttle >= 0.0
+ROR_63:119:void_setThrottle(double): throttle < 0.0  =>   throttle <= 0.0
+ROR_64:119:void_setThrottle(double): throttle < 0.0  =>   throttle == 0.0
+ROR_65:119:void_setThrottle(double): throttle < 0.0  =>   throttle != 0.0
+ROR_66:119:void_setThrottle(double): throttle < 0.0  =>   true
+ROR_67:119:void_setThrottle(double): throttle < 0.0  =>   false
+ROR_68:122:void_setThrottle(double): throttle > 10.0  =>   throttle >= 10.0
+ROR_69:122:void_setThrottle(double): throttle > 10.0  =>   throttle < 10.0
+ROR_70:122:void_setThrottle(double): throttle > 10.0  =>   throttle <= 10.0
+ROR_71:122:void_setThrottle(double): throttle > 10.0  =>   throttle == 10.0
+ROR_72:122:void_setThrottle(double): throttle > 10.0  =>   throttle != 10.0
+ROR_73:122:void_setThrottle(double): throttle > 10.0  =>   true
+ROR_74:122:void_setThrottle(double): throttle > 10.0  =>   false
+COI_1:39:void_engineOn(): ignition  =>  !ignition
+COI_2:40:void_engineOn(): engine == null  =>  !(engine == null)
+COI_3:48:void_engineOff(): ignition  =>  !ignition
+COI_4:58:void_accelerate(): engine != null  =>  !(engine != null)
+COI_5:59:void_accelerate(): brakepedal > 0  =>  !(brakepedal > 0)
+COI_6:62:void_accelerate(): throttle < maxThrottle - 5  =>  !(throttle < maxThrottle - 5)
+COI_7:72:void_brake(): engine != null  =>  !(engine != null)
+COI_8:73:void_brake(): throttle > 0  =>  !(throttle > 0)
+COI_9:76:void_brake(): brakepedal < maxBrake - 1  =>  !(brakepedal < maxBrake - 1)
+COI_10:89:void_run(): engine != null  =>  !(engine != null)
+COI_11:93:void_run(): fspeed > maxSpeed  =>  !(fspeed > maxSpeed)
+COI_12:96:void_run(): fspeed < 0  =>  !(fspeed < 0)
+COI_13:102:void_run(): throttle > 0.0  =>  !(throttle > 0.0)
+COI_14:105:void_run(): throttle < 0.0  =>  !(throttle < 0.0)
+COI_15:119:void_setThrottle(double): throttle < 0.0  =>  !(throttle < 0.0)
+COI_16:122:void_setThrottle(double): throttle > 10.0  =>  !(throttle > 10.0)
+COI_17:135:boolean_getIgnition(): ignition  =>  !ignition
+LOI_1:59:void_accelerate():brakepedal => ~brakepedal
+LOI_2:62:void_accelerate():throttle => ~throttle
+LOI_3:62:void_accelerate():maxThrottle => ~maxThrottle
+LOI_4:65:void_accelerate():maxThrottle => ~maxThrottle
+LOI_5:73:void_brake():throttle => ~throttle
+LOI_6:76:void_brake():brakepedal => ~brakepedal
+LOI_7:76:void_brake():maxBrake => ~maxBrake
+LOI_8:79:void_brake():maxBrake => ~maxBrake
+LOI_9:92:void_run():fspeed => ~fspeed
+LOI_10:92:void_run():throttle => ~throttle
+LOI_11:92:void_run():fspeed => ~fspeed
+LOI_12:92:void_run():airResistance => ~airResistance
+LOI_13:92:void_run():brakepedal => ~brakepedal
+LOI_14:92:void_run():ticksPerSecond => ~ticksPerSecond
+LOI_15:93:void_run():fspeed => ~fspeed
+LOI_16:93:void_run():maxSpeed => ~maxSpeed
+LOI_17:94:void_run():maxSpeed => ~maxSpeed
+LOI_18:96:void_run():fspeed => ~fspeed
+LOI_19:99:void_run():fdist => ~fdist
+LOI_20:99:void_run():fspeed => ~fspeed
+LOI_21:99:void_run():ticksPerSecond => ~ticksPerSecond
+LOI_22:100:void_run():fspeed => ~fspeed
+LOI_23:101:void_run():fdist => ~fdist
+LOI_24:102:void_run():throttle => ~throttle
+LOI_25:103:void_run():ticksPerSecond => ~ticksPerSecond
+LOI_26:105:void_run():throttle => ~throttle
+LOI_27:109:void_run():ticksPerSecond => ~ticksPerSecond
+LOI_28:118:void_setThrottle(double):val => ~val
+LOI_29:119:void_setThrottle(double):throttle => ~throttle
+LOI_30:122:void_setThrottle(double):throttle => ~throttle
+LOI_31:130:int_getSpeed():speed => ~speed
+LOI_32:140:double_getThrottle():throttle => ~throttle
+LOI_33:145:int_getBrakepedal():brakepedal => ~brakepedal
+LOI_34:150:int_getDistance():distance => ~distance
+ASRS_1:63:void_accelerate():throttle += 5.0 => throttle /= 5.0
+ASRS_2:63:void_accelerate():throttle += 5.0 => throttle *= 5.0
+ASRS_3:63:void_accelerate():throttle += 5.0 => throttle -= 5.0
+ASRS_4:63:void_accelerate():throttle += 5.0 => throttle %= 5.0
+ASRS_5:77:void_brake():brakepedal += 1 => brakepedal /= 1
+ASRS_6:77:void_brake():brakepedal += 1 => brakepedal *= 1
+ASRS_7:77:void_brake():brakepedal += 1 => brakepedal -= 1
+ASRS_8:77:void_brake():brakepedal += 1 => brakepedal %= 1
+ASRS_9:103:void_run():throttle -= 0.5 / ticksPerSecond => throttle += 0.5 / ticksPerSecond
+ASRS_10:103:void_run():throttle -= 0.5 / ticksPerSecond => throttle /= 0.5 / ticksPerSecond
+ASRS_11:103:void_run():throttle -= 0.5 / ticksPerSecond => throttle *= 0.5 / ticksPerSecond
+ASRS_12:103:void_run():throttle -= 0.5 / ticksPerSecond => throttle %= 0.5 / ticksPerSecond
+SDL_1:43:void_engineOn(): ignition = true; if (engine == null) {     engine = new java.lang.Thread( this );     engine.start(); }  =>   if (engine == null) {     engine = new java.lang.Thread( this );     engine.start(); }
+SDL_2:40:void_engineOn(): ignition = true; if (engine == null) {     engine = new java.lang.Thread( this );     engine.start(); }  =>   ignition = true;
+SDL_3:42:void_engineOn(): engine = new java.lang.Thread( this ); engine.start();  =>   engine.start();
+SDL_4:42:void_engineOn(): engine = new java.lang.Thread( this ); engine.start();  =>   engine = new java.lang.Thread( this );
+SDL_5:44:void_engineOn(): if (engine == null) {     engine = new java.lang.Thread( this );     engine.start(); }  =>   if (true) {     engine = new java.lang.Thread( this );     engine.start(); }
+SDL_6:53:void_engineOff(): ignition = false; speed = 0; distance = 0; throttle = 0; brakepedal = 0; engine = null;  =>   speed = 0; distance = 0; throttle = 0; brakepedal = 0; engine = null;
+SDL_7:53:void_engineOff(): ignition = false; speed = 0; distance = 0; throttle = 0; brakepedal = 0; engine = null;  =>   ignition = false; distance = 0; throttle = 0; brakepedal = 0; engine = null;
+SDL_8:53:void_engineOff(): ignition = false; speed = 0; distance = 0; throttle = 0; brakepedal = 0; engine = null;  =>   ignition = false; speed = 0; throttle = 0; brakepedal = 0; engine = null;
+SDL_9:53:void_engineOff(): ignition = false; speed = 0; distance = 0; throttle = 0; brakepedal = 0; engine = null;  =>   ignition = false; speed = 0; distance = 0; brakepedal = 0; engine = null;
+SDL_10:53:void_engineOff(): ignition = false; speed = 0; distance = 0; throttle = 0; brakepedal = 0; engine = null;  =>   ignition = false; speed = 0; distance = 0; throttle = 0; engine = null;
+SDL_11:53:void_engineOff(): ignition = false; speed = 0; distance = 0; throttle = 0; brakepedal = 0; engine = null;  =>   ignition = false; speed = 0; distance = 0; throttle = 0; brakepedal = 0;
+SDL_12:58:void_accelerate(): if (engine != null) {     if (brakepedal > 0) {         brakepedal = 0;     }     if (throttle < maxThrottle - 5) {         throttle += 5.0;     } else {         throttle = maxThrottle;     } }  =>  
+SDL_13:64:void_accelerate(): if (brakepedal > 0) {     brakepedal = 0; } if (throttle < maxThrottle - 5) {     throttle += 5.0; } else {     throttle = maxThrottle; }  =>   if (throttle < maxThrottle - 5) {     throttle += 5.0; } else {     throttle = maxThrottle; }
+SDL_14:62:void_accelerate(): if (brakepedal > 0) {     brakepedal = 0; } if (throttle < maxThrottle - 5) {     throttle += 5.0; } else {     throttle = maxThrottle; }  =>   if (brakepedal > 0) {     brakepedal = 0; }
+SDL_15:68:void_accelerate(): if (engine != null) {     if (brakepedal > 0) {         brakepedal = 0;     }     if (throttle < maxThrottle - 5) {         throttle += 5.0;     } else {         throttle = maxThrottle;     } }  =>   if (true) {     if (brakepedal > 0) {         brakepedal = 0;     }     if (throttle < maxThrottle - 5) {         throttle += 5.0;     } else {         throttle = maxThrottle;     } }
+SDL_16:60:void_accelerate(): brakepedal = 0;  =>  
+SDL_17:62:void_accelerate(): if (brakepedal > 0) {     brakepedal = 0; }  =>   if (true) {     brakepedal = 0; }
+SDL_18:63:void_accelerate(): throttle += 5.0;  =>  
+SDL_19:67:void_accelerate(): if (throttle < maxThrottle - 5) {     throttle += 5.0; } else {     throttle = maxThrottle; }  =>   if (true) {     throttle += 5.0; } else {     throttle = maxThrottle; }
+SDL_20:65:void_accelerate(): throttle = maxThrottle;  =>  
+SDL_21:72:void_brake(): if (engine != null) {     if (throttle > 0) {         throttle = 0.0;     }     if (brakepedal < maxBrake - 1) {         brakepedal += 1;     } else {         brakepedal = maxBrake;     } }  =>  
+SDL_22:78:void_brake(): if (throttle > 0) {     throttle = 0.0; } if (brakepedal < maxBrake - 1) {     brakepedal += 1; } else {     brakepedal = maxBrake; }  =>   if (brakepedal < maxBrake - 1) {     brakepedal += 1; } else {     brakepedal = maxBrake; }
+SDL_23:76:void_brake(): if (throttle > 0) {     throttle = 0.0; } if (brakepedal < maxBrake - 1) {     brakepedal += 1; } else {     brakepedal = maxBrake; }  =>   if (throttle > 0) {     throttle = 0.0; }
+SDL_24:82:void_brake(): if (engine != null) {     if (throttle > 0) {         throttle = 0.0;     }     if (brakepedal < maxBrake - 1) {         brakepedal += 1;     } else {         brakepedal = maxBrake;     } }  =>   if (true) {     if (throttle > 0) {         throttle = 0.0;     }     if (brakepedal < maxBrake - 1) {         brakepedal += 1;     } else {         brakepedal = maxBrake;     } }
+SDL_25:74:void_brake(): throttle = 0.0;  =>  
+SDL_26:76:void_brake(): if (throttle > 0) {     throttle = 0.0; }  =>   if (true) {     throttle = 0.0; }
+SDL_27:77:void_brake(): brakepedal += 1;  =>  
+SDL_28:81:void_brake(): if (brakepedal < maxBrake - 1) {     brakepedal += 1; } else {     brakepedal = maxBrake; }  =>   if (true) {     brakepedal += 1; } else {     brakepedal = maxBrake; }
+SDL_29:79:void_brake(): brakepedal = maxBrake;  =>  
+SDL_30:90:void_run(): try {     double fdist = 0.0;     double fspeed = 0.0;     while (engine != null) {         synchronized (this) {             fspeed = fspeed + (throttle - fspeed / airResistance - 2 * brakepedal) / ticksPerSecond;             if (fspeed > maxSpeed) {                 fspeed = maxSpeed;             }             if (fspeed < 0) {                 fspeed = 0;             }             fdist = fdist + fspeed / 36.0 / ticksPerSecond;             speed = (int) fspeed;             distance = (int) fdist;             if (throttle > 0.0) {                 throttle -= 0.5 / ticksPerSecond;             }             if (throttle < 0.0) {                 throttle = 0;             }         }         Thread.sleep( 1000 / ticksPerSecond );     } } catch ( java.lang.InterruptedException e ) {     System.out.println( \"Interrupted Exception caught.\" ); }  =>   try {     double fdist = 0.0;     double fspeed = 0.0; }
+SDL_31:91:void_run(): synchronized (this) {     fspeed = fspeed + (throttle - fspeed / airResistance - 2 * brakepedal) / ticksPerSecond;     if (fspeed > maxSpeed) {         fspeed = maxSpeed;     }     if (fspeed < 0) {         fspeed = 0;     }     fdist = fdist + fspeed / 36.0 / ticksPerSecond;     speed = (int) fspeed;     distance = (int) fdist;     if (throttle > 0.0) {         throttle -= 0.5 / ticksPerSecond;     }     if (throttle < 0.0) {         throttle = 0;     } } Thread.sleep( 1000 / ticksPerSecond );  =>   Thread.sleep( 1000 / ticksPerSecond );
+SDL_32:109:void_run(): synchronized (this) {     fspeed = fspeed + (throttle - fspeed / airResistance - 2 * brakepedal) / ticksPerSecond;     if (fspeed > maxSpeed) {         fspeed = maxSpeed;     }     if (fspeed < 0) {         fspeed = 0;     }     fdist = fdist + fspeed / 36.0 / ticksPerSecond;     speed = (int) fspeed;     distance = (int) fdist;     if (throttle > 0.0) {         throttle -= 0.5 / ticksPerSecond;     }     if (throttle < 0.0) {         throttle = 0;     } } Thread.sleep( 1000 / ticksPerSecond );  =>   synchronized (this) {     fspeed = fspeed + (throttle - fspeed / airResistance - 2 * brakepedal) / ticksPerSecond;     if (fspeed > maxSpeed) {         fspeed = maxSpeed;     }     if (fspeed < 0) {         fspeed = 0;     }     fdist = fdist + fspeed / 36.0 / ticksPerSecond;     speed = (int) fspeed;     distance = (int) fdist;     if (throttle > 0.0) {         throttle -= 0.5 / ticksPerSecond;     }     if (throttle < 0.0) {         throttle = 0;     } }
+SDL_33:111:void_run(): while (engine != null) {     synchronized (this) {         fspeed = fspeed + (throttle - fspeed / airResistance - 2 * brakepedal) / ticksPerSecond;         if (fspeed > maxSpeed) {             fspeed = maxSpeed;         }         if (fspeed < 0) {             fspeed = 0;         }         fdist = fdist + fspeed / 36.0 / ticksPerSecond;         speed = (int) fspeed;         distance = (int) fdist;         if (throttle > 0.0) {             throttle -= 0.5 / ticksPerSecond;         }         if (throttle < 0.0) {             throttle = 0;         }     }     Thread.sleep( 1000 / ticksPerSecond ); }  =>   while (true) {     synchronized (this) {         fspeed = fspeed + (throttle - fspeed / airResistance - 2 * brakepedal) / ticksPerSecond;         if (fspeed > maxSpeed) {             fspeed = maxSpeed;         }         if (fspeed < 0) {             fspeed = 0;         }         fdist = fdist + fspeed / 36.0 / ticksPerSecond;         speed = (int) fspeed;         distance = (int) fdist;         if (throttle > 0.0) {             throttle -= 0.5 / ticksPerSecond;         }         if (throttle < 0.0) {             throttle = 0;         }     }     Thread.sleep( 1000 / ticksPerSecond ); }
+SDL_34:125:void_setThrottle(double): throttle = val; if (throttle < 0.0) {     throttle = 0.0; } if (throttle > 10.0) {     throttle = 10.0; } brakepedal = 0;  =>   if (throttle < 0.0) {     throttle = 0.0; } if (throttle > 10.0) {     throttle = 10.0; } brakepedal = 0;
+SDL_35:123:void_setThrottle(double): throttle = val; if (throttle < 0.0) {     throttle = 0.0; } if (throttle > 10.0) {     throttle = 10.0; } brakepedal = 0;  =>   throttle = val; if (throttle > 10.0) {     throttle = 10.0; } brakepedal = 0;
+SDL_36:123:void_setThrottle(double): throttle = val; if (throttle < 0.0) {     throttle = 0.0; } if (throttle > 10.0) {     throttle = 10.0; } brakepedal = 0;  =>   throttle = val; if (throttle < 0.0) {     throttle = 0.0; } brakepedal = 0;
+SDL_37:125:void_setThrottle(double): throttle = val; if (throttle < 0.0) {     throttle = 0.0; } if (throttle > 10.0) {     throttle = 10.0; } brakepedal = 0;  =>   throttle = val; if (throttle < 0.0) {     throttle = 0.0; } if (throttle > 10.0) {     throttle = 10.0; }
+SDL_38:120:void_setThrottle(double): throttle = 0.0;  =>  
+SDL_39:122:void_setThrottle(double): if (throttle < 0.0) {     throttle = 0.0; }  =>   if (true) {     throttle = 0.0; }
+SDL_40:123:void_setThrottle(double): throttle = 10.0;  =>  
+SDL_41:125:void_setThrottle(double): if (throttle > 10.0) {     throttle = 10.0; }  =>   if (true) {     throttle = 10.0; }
+SDL_42:131:int_getSpeed(): return speed;  =>   return 0;
+SDL_43:136:boolean_getIgnition(): return ignition;  =>   return true;
+SDL_44:136:boolean_getIgnition(): return ignition;  =>   return false;
+SDL_45:141:double_getThrottle(): return throttle;  =>   return 0;
+SDL_46:146:int_getBrakepedal(): return brakepedal;  =>   return 0;
+SDL_47:151:int_getDistance(): return distance;  =>   return 0;
+VDL_1:40:void_engineOn():engine == null => null
+VDL_2:58:void_accelerate():engine != null => null
+VDL_3:59:void_accelerate():brakepedal > 0 => 0
+VDL_4:62:void_accelerate():maxThrottle - 5 => 5
+VDL_5:62:void_accelerate():throttle < maxThrottle - 5 => maxThrottle - 5
+VDL_6:72:void_brake():engine != null => null
+VDL_7:73:void_brake():throttle > 0 => 0
+VDL_8:76:void_brake():maxBrake - 1 => 1
+VDL_9:76:void_brake():brakepedal < maxBrake - 1 => maxBrake - 1
+VDL_10:89:void_run():engine != null => null
+VDL_11:92:void_run():fspeed / airResistance => airResistance
+VDL_12:92:void_run():fspeed / airResistance => fspeed
+VDL_13:92:void_run():throttle - fspeed / airResistance => fspeed / airResistance
+VDL_14:92:void_run():2 * brakepedal => 2
+VDL_15:92:void_run():(throttle - fspeed / airResistance - 2 * brakepedal) / ticksPerSecond => throttle - fspeed / airResistance - 2 * brakepedal
+VDL_16:92:void_run():fspeed + (throttle - fspeed / airResistance - 2 * brakepedal) / ticksPerSecond => (throttle - fspeed / airResistance - 2 * brakepedal) / ticksPerSecond
+VDL_17:93:void_run():fspeed > maxSpeed => maxSpeed
+VDL_18:93:void_run():fspeed > maxSpeed => fspeed
+VDL_19:96:void_run():fspeed < 0 => 0
+VDL_20:99:void_run():fspeed / 36.0 => 36.0
+VDL_21:99:void_run():fspeed / 36.0 / ticksPerSecond => fspeed / 36.0
+VDL_22:99:void_run():fdist + fspeed / 36.0 / ticksPerSecond => fspeed / 36.0 / ticksPerSecond
+VDL_23:102:void_run():throttle > 0.0 => 0.0
+VDL_24:103:void_run():0.5 / ticksPerSecond => 0.5
+VDL_25:105:void_run():throttle < 0.0 => 0.0
+VDL_26:109:void_run():1000 / ticksPerSecond => 1000
+VDL_27:119:void_setThrottle(double):throttle < 0.0 => 0.0
+VDL_28:122:void_setThrottle(double):throttle > 10.0 => 10.0
+ODL_1:40:void_engineOn():engine == null => engine
+ODL_2:40:void_engineOn():engine == null => null
+ODL_3:58:void_accelerate():engine != null => engine
+ODL_4:58:void_accelerate():engine != null => null
+ODL_5:59:void_accelerate():brakepedal > 0 => brakepedal
+ODL_6:59:void_accelerate():brakepedal > 0 => 0
+ODL_7:62:void_accelerate():maxThrottle - 5 => maxThrottle
+ODL_8:62:void_accelerate():maxThrottle - 5 => 5
+ODL_9:62:void_accelerate():throttle < maxThrottle - 5 => throttle
+ODL_10:62:void_accelerate():throttle < maxThrottle - 5 => maxThrottle - 5
+ODL_11:63:void_accelerate():throttle += 5.0 => throttle = 5.0
+ODL_12:72:void_brake():engine != null => engine
+ODL_13:72:void_brake():engine != null => null
+ODL_14:73:void_brake():throttle > 0 => throttle
+ODL_15:73:void_brake():throttle > 0 => 0
+ODL_16:76:void_brake():maxBrake - 1 => maxBrake
+ODL_17:76:void_brake():maxBrake - 1 => 1
+ODL_18:76:void_brake():brakepedal < maxBrake - 1 => brakepedal
+ODL_19:76:void_brake():brakepedal < maxBrake - 1 => maxBrake - 1
+ODL_20:77:void_brake():brakepedal += 1 => brakepedal = 1
+ODL_21:89:void_run():engine != null => engine
+ODL_22:89:void_run():engine != null => null
+ODL_23:92:void_run():fspeed / airResistance => fspeed
+ODL_24:92:void_run():fspeed / airResistance => airResistance
+ODL_25:92:void_run():throttle - fspeed / airResistance => throttle
+ODL_26:92:void_run():throttle - fspeed / airResistance => fspeed / airResistance
+ODL_27:92:void_run():2 * brakepedal => 2
+ODL_28:92:void_run():2 * brakepedal => brakepedal
+ODL_29:92:void_run():throttle - fspeed / airResistance - 2 * brakepedal => throttle - fspeed / airResistance
+ODL_30:92:void_run():throttle - fspeed / airResistance - 2 * brakepedal => 2 * brakepedal
+ODL_31:92:void_run():(throttle - fspeed / airResistance - 2 * brakepedal) / ticksPerSecond => throttle - fspeed / airResistance - 2 * brakepedal
+ODL_32:92:void_run():(throttle - fspeed / airResistance - 2 * brakepedal) / ticksPerSecond => ticksPerSecond
+ODL_33:92:void_run():fspeed + (throttle - fspeed / airResistance - 2 * brakepedal) / ticksPerSecond => fspeed
+ODL_34:92:void_run():fspeed + (throttle - fspeed / airResistance - 2 * brakepedal) / ticksPerSecond => (throttle - fspeed / airResistance - 2 * brakepedal) / ticksPerSecond
+ODL_35:93:void_run():fspeed > maxSpeed => fspeed
+ODL_36:93:void_run():fspeed > maxSpeed => maxSpeed
+ODL_37:96:void_run():fspeed < 0 => fspeed
+ODL_38:96:void_run():fspeed < 0 => 0
+ODL_39:99:void_run():fspeed / 36.0 => fspeed
+ODL_40:99:void_run():fspeed / 36.0 => 36.0
+ODL_41:99:void_run():fspeed / 36.0 / ticksPerSecond => fspeed / 36.0
+ODL_42:99:void_run():fspeed / 36.0 / ticksPerSecond => ticksPerSecond
+ODL_43:99:void_run():fdist + fspeed / 36.0 / ticksPerSecond => fdist
+ODL_44:99:void_run():fdist + fspeed / 36.0 / ticksPerSecond => fspeed / 36.0 / ticksPerSecond
+ODL_45:102:void_run():throttle > 0.0 => throttle
+ODL_46:102:void_run():throttle > 0.0 => 0.0
+ODL_47:103:void_run():0.5 / ticksPerSecond => 0.5
+ODL_48:103:void_run():0.5 / ticksPerSecond => ticksPerSecond
+ODL_49:103:void_run():throttle -= 0.5 / ticksPerSecond => throttle = 0.5 / ticksPerSecond
+ODL_50:105:void_run():throttle < 0.0 => throttle
+ODL_51:105:void_run():throttle < 0.0 => 0.0
+ODL_52:109:void_run():1000 / ticksPerSecond => 1000
+ODL_53:109:void_run():1000 / ticksPerSecond => ticksPerSecond
+ODL_54:119:void_setThrottle(double):throttle < 0.0 => throttle
+ODL_55:119:void_setThrottle(double):throttle < 0.0 => 0.0
+ODL_56:122:void_setThrottle(double):throttle > 10.0 => throttle
+ODL_57:122:void_setThrottle(double):throttle > 10.0 => 10.0
+CDL_1:40:void_engineOn():engine == null => engine
+CDL_2:58:void_accelerate():engine != null => engine
+CDL_3:59:void_accelerate():brakepedal > 0 => brakepedal
+CDL_4:62:void_accelerate():maxThrottle - 5 => maxThrottle
+CDL_5:72:void_brake():engine != null => engine
+CDL_6:73:void_brake():throttle > 0 => throttle
+CDL_7:76:void_brake():maxBrake - 1 => maxBrake
+CDL_8:89:void_run():engine != null => engine
+CDL_9:92:void_run():2 * brakepedal => brakepedal
+CDL_10:96:void_run():fspeed < 0 => fspeed
+CDL_11:99:void_run():fspeed / 36.0 => fspeed
+CDL_12:102:void_run():throttle > 0.0 => throttle
+CDL_13:103:void_run():0.5 / ticksPerSecond => ticksPerSecond
+CDL_14:105:void_run():throttle < 0.0 => throttle
+CDL_15:109:void_run():1000 / ticksPerSecond => ticksPerSecond
+CDL_16:119:void_setThrottle(double):throttle < 0.0 => throttle
+CDL_17:122:void_setThrottle(double):throttle > 10.0 => throttle

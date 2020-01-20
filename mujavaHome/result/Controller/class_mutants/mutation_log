@@ -1,0 +1,8 @@
+JSD_1:10:static is deleted
+JSD_2:12:static is deleted
+JSD_3:14:static is deleted
+JSD_4:16:static is deleted
+JSI_1:18:static is inserted
+JSI_2:20:static is inserted
+JID_1:18:private int controlStateINACTIVE => private int controlState;
+EAM_1:91:sc.getState() => sc.getCruiseSpeed()
